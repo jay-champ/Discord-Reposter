@@ -6,7 +6,7 @@ const fs = require("fs");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.login("<SECRET_BOT_TOKEN>").catch(console.error);
+client.login("MTE4Mjk1NzUxNTQ2NjYxNjkzMw.GGPTUD.mdqsEHwYNTiKXsMOaPIzhqws0O2vpOPXH6PM_w").catch(console.error);
 
 client.on("ready", function() {
 	const serverCount = client.guilds.cache.size;
